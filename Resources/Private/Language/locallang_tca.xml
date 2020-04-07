@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels fortca belonging to extension 'bpn_whitelist'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_bpnlibrary_ipwhitelist">IP Mask</label>
+			<label index="tx_bpnlibrary_ipwhitelist.title">Title</label>
+			<label index="tx_bpnlibrary_ipwhitelist.ip_mask">IP Mask (wildcarded) list</label>
+			<label index="tx_bpnlibrary_ipwhitelist.extension_key">Extension</label>
+		</languageKey>
+
+		<languageKey index="nl" type="array">
+			<label index="tx_bpnlibrary_ipwhitelist">IP Mask</label>
+			<label index="tx_bpnlibrary_ipwhitelist.title">Titel</label>
+			<label index="tx_bpnlibrary_ipwhitelist.ip_mask">IP Masker (wildcarded) lijst</label>
+			<label index="tx_bpnlibrary_ipwhitelist.extension_key">Extensie</label>
+		</languageKey>
+	</data>
+</T3locallang>
