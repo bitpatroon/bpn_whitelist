@@ -1,0 +1,32 @@
+{
+  "name": "bitpatroon/bpn_whitelist",
+  "type": "typo3-cms-extension",
+  "description": "Calculates if the host has access to a certain, defined by a record",
+  "keywords": [
+    "typo3",
+    "access",
+    "api"
+  ],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Sjoerd Zonneveld",
+      "homepage": "https://www.bitpatroon.nl",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.2",
+    "typo3/cms-core": "^10.3",
+    "bitpatroon/typo3_hooks": "^1.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "BPN\\BpnWhitelist\\": "Classes"
+    }
+  }
+}
