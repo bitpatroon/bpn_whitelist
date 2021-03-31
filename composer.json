@@ -28,5 +28,10 @@
     "psr-4": {
       "BPN\\BpnWhitelist\\": "Classes"
     }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bpn_whitelist"
+    }
   }
 }
